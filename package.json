@@ -1,0 +1,26 @@
+{
+  "name": "create-app-upgrade",
+  "version": "1.0.0",
+  "description": "Creating base application for Kolesa Upgrade",
+  "main": "index.mjs",
+  "bin": "index.mjs",
+  "repository": "https://github.com/AlexPavlof/create-app-upgrade.git",
+  "author": "Alex Pavlov <aleksey.pavlof@gmail.com>",
+  "license": "LGPL-3.0-or-later",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --fix ."
+  },
+  "dependencies": {
+    "cac": "^6.7.3",
+    "chalk": "^4.1.1",
+    "envinfo": "^7.8.1",
+    "sao": "^1.7.1",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
